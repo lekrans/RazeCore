@@ -30,6 +30,10 @@ public class RazeCore {
     public static var razeColor: UIColor {
         return self.colorFromHexString("006736")
     }
+    
+    public static var secondaryRazeColor: UIColor {
+        return self.colorFromHexString("FCFFFD")
+    }
     public init() {
     }
 }
